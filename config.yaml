@@ -1,4 +1,4 @@
-name: "C-Bus"
+name: "C-Bus Bridge"
 description: "Clipsal C-Bus to MQTT bridge."
 version: "0.0.1"
 slug: "cbus2mqtt"
@@ -12,8 +12,8 @@ options:
   device:
     serial: ""
   mqtt:
-    host: ""
-    port:
+    host: "core-mosquitto"
+    port: "1883"
     username:
     password:
   ssl:
