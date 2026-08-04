@@ -1,0 +1,32 @@
+name: "C-Bus"
+description: "Clipsal C-Bus to MQTT bridge."
+version: "0.0.1"
+slug: "cbus2mqtt"
+init: false
+arch:
+  - aarch64
+url: "https://github.com/nworbnhoj/ha-app-cbus"
+devices:
+  - /dev/tty*
+options:
+  device:
+    serial: ""
+  mqtt:
+    host: ""
+    port:
+    username:
+    password:
+  ssl:
+    cert: ""
+    key: ""
+schema:
+  device:
+    serial: device(subsystem=tty)
+  mqtt:
+    host: str
+    port: list(1883|1884)
+    username: str
+    password: password
+  ssl:
+    cert: str
+    key: str
