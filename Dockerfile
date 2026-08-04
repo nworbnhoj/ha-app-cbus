@@ -27,7 +27,7 @@ RUN pip3 install --break-system-packages parameterized setuptools && \
 
 # cmqttd runner image
 FROM base as cmqttd
-COPY COPYING COPYING.LESSER Dockerfile README.md entrypoint-cmqttd.sh run.sh /
+COPY COPYING COPYING.LESSER Dockerfile README.md run.sh /
 COPY --from=builder /cbus/dist/cbus-0.2.generic.tar.gz /
 RUN tar zxf /cbus-0.2.generic.tar.gz && rm /cbus-0.2.generic.tar.gz
 
