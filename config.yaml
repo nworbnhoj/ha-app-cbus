@@ -3,8 +3,7 @@ description: "Control a Clipsal C-Bus wired building via this C-Bus to MQTT brid
 version: "0.0.1"
 slug: "cbus2mqtt"
 init: false
-arch:
-  - aarch64
+image: "ghcr.io/nworbnhoj/ha-app-cbus"
 url: "https://github.com/nworbnhoj/ha-app-cbus"
 devices:
   - /dev/tty*
