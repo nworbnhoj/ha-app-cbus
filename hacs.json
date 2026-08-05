@@ -1,0 +1,6 @@
+{
+  "name": "C-Bus Bridge",
+  "content_in_root": true,
+  "homeassistant": "2025.1.0",
+  "type": "integration",
+}
