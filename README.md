@@ -10,7 +10,9 @@ Control your [Clipsal C-Bus][clipsal-cbus] wired building from Home Assistant
 
 **Clipsal claim that use of C-Bus with non-Clipsal hardware or software may void your warranty.** (lighten up guys)
 
-## Legend
+## Legends
+
+### libcbus
 
 This HomeAssistant App is but a thin wrapper around the groundbreaking [libcbus] project.
 
@@ -20,6 +22,12 @@ Talks to Clipsal C-Bus using Python 3.7+.
 
 Copyright 2012-2020 Michael Farrell. Licensed under the GNU LGPL3+. For more
 details see `COPYING` and `COPYING.LESSER`.
+
+### cgateweb
+
+You should really checkout [cgateweb] as a fabulous alternative.
+
+Please buy [Doug Rathbone](https://buymeacoffee.com/dougrathbone) a drink as well.
 
 ## Requirements
 
@@ -62,3 +70,4 @@ It is probably easy to extend to other devices ([5500PC] [5500CN] [5500CN2]) if 
 [Home Assistant]: https://www.home-assistant.io/
 [Mosquitto Broker App]: https://github.com/home-assistant/addons/tree/master/mosquitto
 [Michael Farrell]: https://github.com/micolous
+[cgateweb]: https://github.com/dougrathbone/cgateweb
