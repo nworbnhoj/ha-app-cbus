@@ -1,5 +1,5 @@
 name: "C-Bus Bridge"
-description: "Clipsal C-Bus to MQTT bridge."
+description: "Control a Clipsal C-Bus wired building via this C-Bus to MQTT bridge."
 version: "0.0.1"
 slug: "cbus2mqtt"
 init: false
