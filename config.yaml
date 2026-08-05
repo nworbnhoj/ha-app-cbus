@@ -1,4 +1,7 @@
 name: "C-Bus Bridge"
+arch:
+  - aarch64
+  - amd64
 description: "Control a Clipsal C-Bus wired building via this C-Bus to MQTT bridge."
 version: "0.0.1"
 slug: "cbus2mqtt"
